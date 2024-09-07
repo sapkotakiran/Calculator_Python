@@ -1,6 +1,6 @@
 last_value = None
 
-def outer_function():
+def calculator():
     global last_value
 
     def add_number(first, second):
@@ -62,4 +62,4 @@ def outer_function():
         else:
             print(f"Final Result = {last_value}")
             break
-outer_function()
+calculator()
